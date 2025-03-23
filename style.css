@@ -1,0 +1,60 @@
+/* css styling practice */
+* {
+    font-family: "Courier New", "Courier", monospace;
+}
+
+.main-header {
+    background-color: yellow;
+    font-size: 30px;
+    color: black;
+}
+
+.main-para {
+    font-size: 20px;
+}
+
+.div {
+    width: 480;
+    height: 480;
+    align-content: center;
+}
+
+.button-home {
+    font-size: large;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+}
+
+#home {
+    color: white;
+}
+
+/*index*/
+
+.button {
+    padding: 10px;
+    width: 200px;
+    height: 0 auto;
+    display: inline-block;
+}
+
+.main-box {
+    border: 1px solid black;
+    width:fit-content;
+    height: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: wheat;
+    transition: 0.2s;
+}
